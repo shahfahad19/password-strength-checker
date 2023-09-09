@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Password Strength Checker</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"></meta>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
+        <script src="./script.js" defer></script>
+    </head>
+    <body>
+        <div class="main">
+            <h2>Password Strength<br>Checker</h2>
+            <input id="pass" type="text" oninput="checkPassword()" placeholder="Type Password Here">
+            <div id="fill"></div>
+            <div class="list">
+            <ul>
+                <li id="uc">Uppercase Alphabet</li>
+                <li id="lc">Lowercase Alphabet</li>
+                <li id="num">Numbers</li>
+                <li id="sc">Special characters</li>
+                <li id="len">Length > 8</li>
+            </ul>
+        </div>
+        </div>
+    </body>
+</html>
